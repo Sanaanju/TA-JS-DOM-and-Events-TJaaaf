@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Validation 👇</title>
+  </head>
+<body>
+ <div class="container">
+
+   <header>
+     <h1>Create Form Validation</h1>
+   </header>
+
+   <form>
+      <div class="form-control">
+        <label for="username">Username</label> <br>
+        <input id="username" type="text" name="username" placeholder="arya" />
+        <i class ="fas fa-check-circle"></i>
+        <i class ="fas fa-exclamation-circle"></i>
+        <small></small>
+      </div> 
+
+      <div class="form-control">
+        <label for="name">Name</label> <br>
+        <input  id="name" type="text" name="name" placeholder="Arya Stark"/>
+        <!-- <i class ="fas fa-check-circle"></i>
+        <i class ="fas fa-exclamation-circle"></i> -->
+        <small></small>
+      </div>
+
+      <div class="form-control">
+        <label for="email">Email</label> <br>
+        <input id="email" type="text" name="email" placeholder="arya@Stark.com"/>
+        <small></small>
+      </div>
+
+      <div class="form-control">
+        <label for="phone">Phone Number</label> <br>
+        <input   id="phone" type="tel" name="phone" placeholder= 00000000/>
+        <small></small>
+      </div>
+
+      <div class="form-control">
+        <label for="pass">Password</label> <br>
+        <input  id = "pass" type="password" name="password" placeholder= "password"/>
+        <small></small>
+      </div>
+
+      <div class="form-control">
+        <label for="text">Confirm Password</label> <br>
+        <input id = "pass" type="pass-check" name="password-check" placeholder= "confirm password"/>
+        <small></small>
+      </div>
+
+      <button class="btn" href="#">submit</button>
+    </form>
+ </div>
+  <script src="./script.js"></script>
+</body>
+</html>
