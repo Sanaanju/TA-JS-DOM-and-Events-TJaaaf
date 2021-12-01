@@ -91,3 +91,20 @@ input[type='text'] {
 .terms {
   display: inline-block;
 }
+
+.open {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: block;
+}
+
+.display {
+  display: none;
+}
+
+.modal_overlay {
+  background-color: aqua;
+}
