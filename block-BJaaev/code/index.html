@@ -7,6 +7,28 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <main class="main container">
+      <h1>TODO LIST</h1>
+      <div class="flex justify-between align-center padding">
+        <input
+          type="text"
+          id="text"
+          name="text"
+          placeholder="Add you todos !"
+        />
+        <span id="addTodo" class="flex justify-center align-center"
+          >&plus;</span
+        >
+      </div>
+
+      <ul></ul>
+      <div class="flex justify-between align-center padding options">
+        <span id="all">All</span>
+        <span id="completed">Completed</span>
+        <span id="pending">Pending</span>
+        <span id="clear">Clear</span>
+      </div>
+    </main>
     <script src="./script.js"></script>
   </body>
 </html>
